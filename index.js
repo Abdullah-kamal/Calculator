@@ -72,6 +72,7 @@ Array.from(keys).forEach((element) => {
       num1 = result;
       num2 = 0;
       operator = "";
+      operator_count--;
     }
     console.log(num1, num2, operator);
   });
